@@ -1,0 +1,33 @@
+name: py-kaldi-asr-client
+channels:
+- defaults
+dependencies:
+- asn1crypto=0.24.0=py27_0
+- ca-certificates=2018.03.07=0
+- certifi=2018.4.16=py27_0
+- cffi=1.11.5=py27h9745a5d_0
+- chardet=3.0.4=py27hfa10054_1
+- cryptography=2.2.2=py27h14c3975_0
+- enum34=1.1.6=py27h99a27e9_1
+- idna=2.6=py27h5722d68_1
+- ipaddress=1.0.22=py27_0
+- libedit=3.1.20170329=h6b74fdf_2
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=hdf63c60_3
+- libstdcxx-ng=7.2.0=hdf63c60_3
+- ncurses=6.1=hf484d3e_0
+- openssl=1.0.2o=h20670df_0
+- pip=10.0.1=py27_0
+- pycparser=2.18=py27hefa08c5_1
+- pyopenssl=18.0.0=py27_0
+- pysocks=1.6.8=py27_0
+- python=2.7.15=h1571d57_0
+- readline=7.0=ha6073c6_4
+- requests=2.18.4=py27hc5b0589_1
+- setuptools=39.2.0=py27_0
+- six=1.11.0=py27h5f960f1_1
+- sqlite=3.23.1=he433501_0
+- tk=8.6.7=hc745277_3
+- urllib3=1.22=py27ha55213b_0
+- wheel=0.31.1=py27_0
+- zlib=1.2.11=ha838bed_2
