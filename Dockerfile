@@ -1,6 +1,6 @@
 FROM quay.io/mpuels/docker-py-kaldi-asr:0.3.1
 
-ARG MODEL_NAME=kaldi-generic-en-tdnn_sp-r20180611
+ARG MODEL_NAME=kaldi-generic-de-tdnn_250-r20180611
 
 RUN apt-get install xz-utils -y && \
     apt-get clean && \
