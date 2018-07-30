@@ -1,11 +1,11 @@
-FROM quay.io/mpuels/docker-py-kaldi-asr:0.3.1
+FROM quay.io/mpuels/docker-py-kaldi-asr:0.4.1
 
 RUN apt-get install xz-utils -y && \
     apt-get clean && \
     apt-get autoclean && \
     apt-get autoremove -y
 
-ARG MODEL_NAME=kaldi-generic-en-tdnn_250-r20180611
+ARG MODEL_NAME=kaldi-generic-en-tdnn_250-r20180702
 
 WORKDIR /opt
 RUN wget -q http://goofy.zamia.org/zamia-speech/asr-models/${MODEL_NAME}.tar.xz && \
