@@ -17,4 +17,17 @@ terminal, execute:
     $ source activate py-kaldi-asr-client
     $ ./asr_client.py asr.wav
 
+For a list of available Kaldi models packaged in Docker containers, see
+https://quay.io/repository/mpuels/docker-py-kaldi-asr-and-model?tab=tags .
+
+Docker images are named according to the format
+
+    kaldi-generic-<LANG>-tdnn-<SIZE>-<RELEASEDATE>
+
+1. `<LANG>`: There are models for English (`en`) and German (`de`).
+2. `<SIZE>`: Kaldi models come in two sizes: `sp` (standard size) and `250` (
+   smaller size, suitable for realtime decoding on Raspberry Pi).
+3. `<RELEASEDATE>`: Usually, models released later are trained on more data and
+   hence have a lower word error rate.
+
 The image is part of [Zamia Speech](https://github.com/gooofy/zamia-speech).
