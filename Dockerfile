@@ -5,7 +5,7 @@ RUN apt-get install xz-utils -y && \
     apt-get autoclean && \
     apt-get autoremove -y
 
-ARG MODEL_NAME=kaldi-generic-en-tdnn_sp-r20180815
+ARG MODEL_NAME=kaldi-generic-en-tdnn_250-r20180815
 
 WORKDIR /opt
 RUN wget -q http://goofy.zamia.org/zamia-speech/asr-models/${MODEL_NAME}.tar.xz && \
