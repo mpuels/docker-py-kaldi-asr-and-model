@@ -7,8 +7,8 @@ these steps.
 
 To start the STT service on your local machine, execute:
 
-    $ docker pull quay.io/mpuels/docker-py-kaldi-asr-and-model:kaldi-generic-en-tdnn_sp-r20180611
-    $ docker run --rm -p 127.0.0.1:8080:80/tcp quay.io/mpuels/docker-py-kaldi-asr-and-model:kaldi-generic-en-tdnn_sp-r20180611
+    $ docker pull quay.io/mpuels/docker-py-kaldi-asr-and-model:kaldi-generic-en-tdnn_sp-r20180815
+    $ docker run --rm -p 127.0.0.1:8080:80/tcp quay.io/mpuels/docker-py-kaldi-asr-and-model:kaldi-generic-en-tdnn_sp-r20180815
 
 To transfer an audio file for transcription to the service, in a second
 terminal, execute:
@@ -19,6 +19,9 @@ terminal, execute:
 
 For a list of available Kaldi models packaged in Docker containers, see
 https://quay.io/repository/mpuels/docker-py-kaldi-asr-and-model?tab=tags .
+
+For a description of the available models, see
+https://github.com/gooofy/zamia-speech#asr-models .
 
 Docker images are named according to the format
 
